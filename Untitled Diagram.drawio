@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T08:37:37.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="Nv0vS5PGxIjmcAch4PtP" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T08:44:04.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="ISEbw72IVMfzkmbxQ60q" version="18.2.1" type="github">
   <diagram id="8dOqQhNxFz7nHlCJ9IUA" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,6 +58,33 @@
         </mxCell>
         <mxCell id="uQbY0OOqVsN9o2MsZS_4-21" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.kinesis;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="525.25" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-26" value="Cognito Auth&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-27" value="Patient app&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="105" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-28" value="API Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="174" y="210" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-29" value="Matcher Function" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="96" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-30" value="Dynamo DB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-31" value="SNS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-32" value="FCM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-33" value="Analytics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uQbY0OOqVsN9o2MsZS_4-34" value="/consult" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
